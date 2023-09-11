@@ -1,0 +1,88 @@
+.products_page_section{
+    width: 100%;
+    height:90vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .category_section_products_section{
+        width: 20%;
+        height: 100%;
+        background-color: rgba(181, 177, 177, 0.794);
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 0rem;
+        position: sticky;
+        top: 200px;
+        h1{
+            text-decoration: underline;
+            padding: 0.3rem;
+            text-decoration-color: red;
+            cursor: pointer;
+        }button{
+            background-color: white;
+            font-size: 21px;
+            font-family: sans-serif;
+            font-weight: 300;
+            padding: 0.3rem 0.7rem;
+            border-radius: 0.3rem;
+            border: none;
+            box-shadow: 0px 0px 20px gray;
+            color: black;
+            cursor: pointer;
+            &:active{
+                background-color: rgb(88, 80, 80);   
+            }
+        }
+    }
+    .show_items_section_page{
+        width: 70%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .loading_products{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product_chmaber{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 2rem 0rem;
+            gap: 1rem 1rem;
+            overflow-y: auto;
+            .product_chmaber_box{
+                width: 21%;
+                height: 30%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 0.5rem;
+                box-shadow: 0px 0px 20px gray;
+                img{
+                    width: 50%;
+                    height: 50%;
+                    object-fit: contain;
+                }
+                h4{
+                    width: 80%;
+                }
+                h5{
+                    padding: 0.2rem 0rem;
+                }
+            }
+        }
+    }
+}

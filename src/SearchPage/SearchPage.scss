@@ -1,0 +1,51 @@
+.search_page_details{
+    width: 100%;
+    height: 80vh;
+     h2{
+        padding: 2rem 3rem;
+     }
+     .loading_search{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 20%;
+            height: 30%;
+            object-fit: contain;
+        }
+     }
+     .search_boxes_items{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1rem 1rem;
+        gap: 1rem 1rem;
+        overflow-y: auto;
+        .items_box_search{
+            width: 21%;
+            height: 30%;
+            background-color: white;
+            box-shadow: 0px 0px 20px gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 0.8rem;
+            img{
+                width: 60%;
+                height: 50%;
+                object-fit: contain;
+            }
+            .search_about_box{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+     }
+}
